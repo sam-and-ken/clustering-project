@@ -1,0 +1,10 @@
+env.py
+*.jpg
+.DS_Store
+.ipynb_checkpoints/
+__pycache__
+telco_df.csv
+zillow.csv
+wrangle.py
+sql_query.sql
+wrangle_zillow_old.py
