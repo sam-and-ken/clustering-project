@@ -5,7 +5,7 @@
 - Data is subset from "single unit" properties sold in 2017 from LA, Ventura, and Orange counties in Southern California
 
 ### Goals
-- The goals are to find drivers of logerror, cluster the data into relevant groups, and to predict logerror using a machine learning models for each cluster
+- The goals are to find drivers of logerror, cluster the data into relevant groups, and to predict logerror using a machine learning model for each cluster
 
 ---------------------------------
 ### Data Dictionary
