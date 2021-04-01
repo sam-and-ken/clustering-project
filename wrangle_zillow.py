@@ -185,7 +185,7 @@ def clean_zillow(df):
     df = df[df.taxvaluedollarcnt.notnull()]
     df = df[df.taxamount.notnull()]
     df = df[df.landtaxvaluedollarcnt.notnull()]
-    
+
     df['county'] = np.where(df.fips == 6037, 'Los_Angeles',
                            np.where(df.fips == 6059, 'Orange', 
                                    'Ventura'))    
@@ -198,6 +198,7 @@ def clean_zillow(df):
     
     df.heatingorsystemdesc.fillna('None', inplace = True)
     df.unitcnt.fillna(1, inplace = True)
+
     
     # replace nulls with median values for select columns
     df.lotsizesquarefeet.fillna(7313, inplace = True)
@@ -220,6 +221,7 @@ def clean_zillow(df):
     df = df.rename(columns={"bedroomcnt": "bedrooms", "bathroomcnt": "bathrooms", "calculatedfinishedsquarefeet":    
                                     "square_feet","taxamount": "taxes", "taxvaluedollarcnt": "tax_value"})
     
+    df['logerror_absolute'] = df['logerror'].abs()
     df['age_in_years'] = 2021 - df.yearbuilt
     df['Bathrooms_cat'] = df.bathrooms.apply(lambda x: "4+" if x >= 4 else x)
     df['Bedrooms_cat'] = df.bedrooms.apply(lambda x: "4+" if x >= 4 else x)
