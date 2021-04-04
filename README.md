@@ -36,6 +36,7 @@
 |taxes| taxes paid for assement year| float|
 |heatingorsystemdesc| type of heating system| float|
 |county| name of the county the property is located| object|
+|logerror_absolute| absolute value of logerror| float|
 |age_in_years| houses age from yearbuilt to 2021| float|
 |Bathrooms_cat| categorical bathrooms from 0,1,2,3,4+|object|
 |Bedrooms_cat| categorical bedrooms from 0,1,2,3,4+| object|
