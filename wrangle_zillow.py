@@ -273,6 +273,23 @@ def scale_data(train,validate,test):
     test_scaled = pd.DataFrame(test_scaled, columns=train.columns)
     
     return train_scaled, validate_scaled, test_scaled
+
+def scale_data_minmax(train,validate,test):
+    '''Accepts train, validate, test data frames and applies standard scaler
+    return: train, validate, test scaled pandas dataframe'''
+    
+    scaler = sklearn.preprocessing.MinMaxScaler()
+    scaler.fit(train)
+    
+    train_scaled = scaler.transform(train)
+    validate_scaled = scaler.transform(validate)
+    test_scaled = scaler.transform(test)
+    
+    train_scaled = pd.DataFrame(train_scaled, columns=train.columns)
+    validate_scaled = pd.DataFrame(validate_scaled, columns=train.columns)
+    test_scaled = pd.DataFrame(test_scaled, columns=train.columns)
+    
+    return train_scaled, validate_scaled, test_scaled
     
 #functions below are for tabling nulls
 def missing_rows(df):
