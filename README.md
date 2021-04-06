@@ -73,7 +73,10 @@
 
 ---------------------------------------------------
 ### Project Takeaways
--
+- Clusters created were minimally effective at assisting in regression predictions of logerror
+- Even clusters created out of features most associated with the target variable were only slightly effective
+- Logerror was not easy to predict using a linear model, would like to see if there was another model type that may be more effective at predicting logerror
+- Would also like to use the zestimate and actual selling price as target variables to see if a better prediction model could be made for error in estimates
 
 --------------------------------------------------
 ### How to re-create
