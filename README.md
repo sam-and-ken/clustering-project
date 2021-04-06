@@ -49,7 +49,7 @@
 
 --------------------------------------------------
 ### Hypotheses
-**1. Is the mean significantly different between?**
+**1. Is there a significant difference in the average error of Orange County and the total average error?**
 - null_hypothesis = 
 - alternative_hypothesis = 
 
