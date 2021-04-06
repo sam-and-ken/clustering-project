@@ -49,17 +49,17 @@
 
 --------------------------------------------------
 ### Hypotheses
-**1. Is there a significant difference in the average error of Orange County and the total average error?**
-- null_hypothesis = 
-- alternative_hypothesis = 
+**1. Is there a significant difference in the average logerror of Orange County and the total average error?**
+- null_hypothesis = There is no difference in the average logerror of Orange county and the overall average logerror
+- alternative_hypothesis = There is a difference in the logerror of Orange county when compared to the overall average logerror
 
-**2. Is there a correlation between?**
-- null_hypothesis = 
-- alternative_hypothesis =
+**2. Is there a difference in the average log error between houses that are greater than 2500 feet and those that are less?**
+- null_hypothesis = There is no difference in the average logerror of houses greater than 2500 square feet and those that have 2500 square feet or less
+- alternative_hypothesis = There is a difference in the average logerror of houses greater than 2500 square feet and those that have 2500 square feet or less
 
-**3. Is there a correlation between tax value and square footage?**
-- null_hypothesis = 
-- alternative_hypothesis = 
+**3. Is there a difference in the average log error between houses that have more than 4 bathrooms and those that have 4 or less?**
+- null_hypothesis = There is no difference in the average logerror between houses that have greater than 4 bathrooms and those with 4 or less
+- alternative_hypothesis = There is a difference in the average logerror of houses that have greater than 4 bathrooms and those with 4 or less
 
 --------------------------------------------------
 
