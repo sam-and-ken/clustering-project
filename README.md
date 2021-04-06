@@ -61,6 +61,18 @@
 - null_hypothesis = There is no difference in the average logerror between houses that have greater than 4 bathrooms and those with 4 or less
 - alternative_hypothesis = There is a difference in the average logerror of houses that have greater than 4 bathrooms and those with 4 or less
 
+**4. Is the mean absolute log error significantly different between LA and Orange+Ventura county?**
+- null_hypothesis = "The mean absolute log errors are the same between LA and other counties"
+- alternative_hypothesis = "The mean absolute log errors are significantly different between LA and other counties"
+
+**5. Is the mean absolute log error significantly different between homes built pre and post 1970?**
+- null_hypothesis = "The mean absolute log errors are the same between pre and post 1970"
+- alternative_hypothesis = "The mean absolute log errors are significantly different between pre and post 1970"
+
+**6. Is the mean absolute log error significantly different between homes sold March-July vs other months?**
+- null_hypothesis = "The mean absolute log errors are the same between homes sold from March-July and other months"
+- alternative_hypothesis = "The mean absolute log errors are significantly different between homes sold from March-July and other months"
+
 --------------------------------------------------
 
 ### Project Plan
