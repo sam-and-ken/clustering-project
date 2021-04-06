@@ -78,7 +78,7 @@
 --------------------------------------------------
 ### How to re-create
 - All necessary files minus env.py are in this repository so the best method would be to git clone and add your own env.py if you want to create your own zillow.csv
-- Run .ipynb
+- Run Cluster_project_explore and Final_clustering_project notebooks
 - Adjust exploration and modeling to your liking
 
 
